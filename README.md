@@ -30,10 +30,10 @@ pip install -r requirements.txt
 
 #### Run the application
 ```
-uvicorn main:app --reload
+uvicorn main:app --port 3500 --reload
 ```
 
-#### Application will be running on http://localhost:8000
+#### Application will be running on http://localhost:3500
 
 ### Note:
 ```
